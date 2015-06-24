@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE forum SYSTEM "forum.dtd">
+<forum>
+	<thread>
+		<title>Tea Party</title>
+		<posts>teaParty.xml</posts>
+	</thread>
+	<thread>
+		<title>COMP212 Exam</title>
+		<posts>crypto.xml</posts>
+	</thread>
+</forum>

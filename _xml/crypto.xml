@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE posts SYSTEM "thread.dtd">
+<posts>
+	<post>
+		<username>Alice</username>
+		<date><day>14</day><month>July</month><year>2013</year></date>
+		<time><hour>12</hour><minute>22</minute><seconds>10</seconds></time>
+		<text>Bob - we need to sort out the exam questions for COMP212</text>
+		<post>
+			<username>Eve</username>
+			<date><day>14</day><month>July</month><year>2013</year></date>
+			<time><hour>13</hour><minute>17</minute><seconds>48</seconds></time>
+			<text>Exam questions, that sounds interesting!</text>
+		</post>
+		<post>
+			<username>Bob</username>
+			<date><day>14</day><month>July</month><year>2013</year></date>
+			<time><hour>13</hour><minute>17</minute><seconds>48</seconds></time>
+			<text>I don't think we can discuss that here, it's not a secure forum.</text>
+			<post>
+				<username>Eve</username>
+				<date><day>14</day><month>July</month><year>2013</year></date>
+				<time><hour>13</hour><minute>20</minute><seconds>18</seconds></time>
+				<text>What's wrong, Bob? Don't you trust me.</text>
+			</post>
+			<post>
+				<username>Alice</username>
+				<date><day>14</day><month>July</month><year>2013</year></date>
+				<time><hour>13</hour><minute>43</minute><seconds>15</seconds></time>
+				<text>Here's my public key: bd67929cd57743f3c53c8d1a65635a61</text>
+				<post>
+					<username>Bob</username>
+					<date><day>14</day><month>July</month><year>2013</year></date>
+					<time><hour>12</hour><minute>59</minute><seconds>5</seconds></time>
+					<text>Excellent, here's mine: c554861e778bde457f56e151faa5bd01</text>
+				</post>
+			</post>
+		</post>
+	</post>
+	<post>
+		<username>Bob</username>
+		<date><day>14</day><month>July</month><year>2013</year></date>
+		<time><hour>15</hour><minute>3</minute><seconds>12</seconds></time>
+		<text>7964e061c63ab00d7e04ab6913636242 997fd637d29c257809a0dd18375ad87b 18a679e64c6df81370457a258098fce2</text>
+		<post>
+			<username>Alice</username>
+			<date><day>14</day><month>July</month><year>2013</year></date>
+			<time><hour>15</hour><minute>22</minute><seconds>10</seconds></time>
+			<text>4356350dce5192e5c0b4fec0e342a2cb 184bef9b9fc5521533e4e539c0c2d60a</text>
+			<post>
+				<username>Eve</username>
+				<date><day>14</day><month>July</month><year>2013</year></date>
+				<time><hour>15</hour><minute>23</minute><seconds>23</seconds></time>
+				<text>Huh?</text>
+			</post>
+		</post>
+	</post>
+	
+</posts>

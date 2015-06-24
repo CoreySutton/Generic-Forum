@@ -1,0 +1,156 @@
+/**********************************************************************************
+*										style.css
+*
+* To be implemented on all pages. 
+* Contains the basic styling for all pages
+**********************************************************************************/
+body {
+	background-color:#000;
+	margin:0px;
+	font-family:'Myriad Pro';
+	font-size:16px;
+}
+	.header {
+		background:url(../_res/diag_pattern.png);
+		background-color:#F00;
+	}
+	.givePattern {
+		background:url(../_res/diag_pattern.png);
+	}
+	p {
+		margin:5px 15px;
+	}
+	h1 {
+		margin:5px 15px;
+	}
+	h2 {
+		font-size:20px;	
+		margin:5px 15px;
+	}
+	h3 {
+		font-size:18px;	
+		margin:5px 15px;
+	}
+	ul {
+		list-style:none;
+	}
+		nav li {
+			font-size:18px;
+		}
+	/**********************************************************************************
+	* This div is only used to make sure all the content of the page is centered
+	**********************************************************************************/
+	#div_wrapper {
+		width:1000px; 
+		margin:0 auto; /* "auto" makes the left and right margins center the wrapper */
+		padding:0;
+	}
+
+	/**********************************************************************************
+	* This section relates to the all the links inside of the nav tag
+	**********************************************************************************/
+	nav {
+		background-color:#F00;
+		width:225px;
+		float:left;
+		position:fixed;
+		margin:0px 0px;
+		height:100%;
+		z-index:-1;
+	}
+		#sect_logo {
+			width:200px;
+			margin:0 auto; /* "auto" makes the left and right margins center the wrapper */
+			padding:0
+		}
+			#sect_logo img {
+				width:200px;	
+			}
+		.navItems {
+			margin:10px 0px;
+			border-style:solid;
+			border-width:2px;
+			border-color:#000;
+			margin:5px 10px;
+			border-radius:30px;
+			background:#FFF;
+		}
+		
+			.li_threads {
+				cursor:pointer;
+			}
+		#login input {
+		   width: 150px;
+		   margin-left:20px;
+		   margin-bottom:10px;
+		}
+		#login input[type=submit], #logout input[type=submit] {
+		   width: 60px;
+		   margin-left:20px;	   
+		   margin-bottom:10px;
+		}
+		#logout p{
+			text-align:center;	
+		}
+	
+	/**********************************************************************************
+	* This section realtes to the rest of the page, including the #content and the
+	* #footer divisions.
+	**********************************************************************************/
+	#div_RHS {
+		background-color:#FFF;
+		width:760px;
+		float:right;
+		margin-left:15px;
+		background-color:#EEE;
+		z-index:9;
+	}
+		header {
+		}
+		.timestamp {
+			background-color:#0FF;
+			width:100%;
+			display:table;
+			margin-bottom:0px;
+			margin-left:0px;
+			cursor:pointer;
+		}
+		.date {
+			float:left;
+		}
+		.postNumber {
+			float:right;
+		}
+		
+		.username {
+			clear:both;
+			background-color:#DDD;
+			margin:0px;
+		}
+		.text {
+			background-color:#BBB;
+			margin:0px 0px 15px 0px;
+		}
+		hr {
+			clear:both;
+		}
+		.div_user {
+			clear:both;
+			border-style:outset;
+			border-width:3px;
+			border-color:#000;
+			margin:15px;
+		}
+		.profilePicture {
+			margin-left:15px;
+			margin-bottom:15px;
+			float:left;
+		}
+		.div_details {
+			margin-left:15px;
+			float:left;
+		}
+	footer {
+		text-align:center;
+		background:url(../_res/diag_pattern.png);
+	}

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE users SYSTEM "users.dtd">
+<users>
+	<user>
+		<username>Alice</username>
+		<firstname>Alice</firstname>
+		<lastname>Liddell</lastname>
+		<gender>Female</gender>
+		<signature>Curiouser and curiouser</signature>
+	</user>
+	<user>
+		<username>Hatter</username>
+		<firstname>Theophilus</firstname>
+		<lastname>Carter</lastname>
+		<gender>Male</gender>
+		<signature>In this style 10/6</signature>
+	</user>
+	<user>
+		<username>MarchHare</username>
+		<firstname>Lepus</firstname>
+		<lastname>Timidus</lastname>
+		<gender>Male</gender>
+		<signature>Mad as a March hare</signature>
+	</user>
+	<user>
+		<username>Dormouse</username>
+		<firstname>Muscardinus </firstname>
+		<lastname>Avellanarius</lastname>
+		<gender>Male</gender>
+		<signature>Zzzzzz</signature>
+	</user>
+	<user>
+		<username>Eve</username>
+		<firstname>Anon</firstname>
+		<lastname>Ymous</lastname>
+		<gender>Female</gender>
+	</user>
+	<user>
+		<username>Bob</username>
+		<firstname>Robert</firstname>
+		<lastname>Carpenter</lastname>
+		<gender>Male</gender>
+		<signature>Can we fix it? Yes we can!</signature>
+	</user>
+</users>

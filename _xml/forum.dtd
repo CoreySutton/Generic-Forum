@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!ELEMENT forum (thread*)>
+<!ELEMENT thread (title, posts)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT posts (#PCDATA)>

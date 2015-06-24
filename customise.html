@@ -1,0 +1,121 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link href="_styles/style.css" rel="stylesheet" type="text/css">
+    <script src="_scripts/jquery-1.10.2.min.js"></script>
+    <script src="_scripts/cookie.js"></script>
+    <script src="_scripts/login.js"></script>
+    <script src="_scripts/formatting.js"></script>
+    <script src="_scripts/customise.js"></script>
+	<title>Generic Forum</title>
+</head>
+
+<body>
+	<div id="div_wrapper">
+        <nav>
+        	<section id="sect_logo">
+            	<a href="index.html"><img src="_res/genericForum.png" alt="Generic Forum Logo"></a>
+            </section>
+            <section id="sec_navPages" class="navItems">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="users.html">Users</a></li>
+                    <li><a href="customise.html">Customise Page</a></li>
+                </ul>
+            </section>
+            <section id="sec_customise" class="navItems">
+            	<h2>Your Options</h2>
+                <p>You have not customised any options</p>
+            </section>
+            <section id="sec_navLogin" class="navItems">
+            	<div id="login">
+                	<h2>Login</h2>
+                	<form id="loginForm">
+                        <input type="text" name="loginUser" id="loginUser" placeholder="Username"><br>
+                        <input type="password" name="loginPassword" id="loginPassword" placeholder="Password"><br>
+                        <input type="submit" id="loginSubmit" value="Go">
+                    </form>
+          		</div>
+                <div id="logout">
+                    <p>Welcome, <span id="logoutUser"></span></p>
+                    <form id="logoutForm">
+                        <input type="submit" id="logoutSubmit" value="Logout">
+                    </form>
+                </div>
+        	</section>
+        </nav>
+        
+        <div id="div_RHS">
+            <div id="content">
+            	<header>
+                	<div class="header">
+                    	<h1>Customise Page</h1>
+                    </div>
+                </header>
+                <section id="sect_welcomeBlurb">
+                    <h2>Customise your page</h2>
+                    <p>Here you can customise how your page looks.</p>
+                    <p>Use the radio buttons <b>below</b> to customise your page and don't forget to hit the <b>'Save Changes'</b> button.</p>
+                    <p>Have fun and if you ever want to return to the default settings simply click the <b>'Restore Defaults</b> button</p> 
+                    <p>PLease make sure you have <b>cookies</b> enabled</p>
+                </section>
+                <section id="sec_Container">
+                	<form id="form_cBackground" class="customiseForm">
+                    	<input type="button" name="updateCookie" value="Save Changes" class="updateCookie">
+                        <input type="button" name="restoreDefaults" value="Restore Defaults" class="restoreDefaults">
+                        <br>
+                        <br>
+                    	<fieldset>
+	                        <h3>Change background colour</h3>
+                            <input type="radio" name="inputBackground" value="#F00" class="inputBackground">Red<br>
+                            <input type="radio" name="inputBackground" value="#0F0" class="inputBackground">Green<br>
+                            <input type="radio" name="inputBackground" value="#00F" class="inputBackground">Blue<br>
+                            <input type="radio" name="inputBackground" value="#FF0" class="inputBackground">Yellow<br>
+                            <input type="radio" name="inputBackground" value="#F0F" class="inputBackground">Purple<br>
+                            <input type="radio" name="inputBackground" value="#0FF" class="inputBackground">Teal<br>
+                            <input type="radio" name="inputBackground" value="#FFF" class="inputBackground">White<br>
+                            <input type="radio" name="inputBackground" value="#000" class="inputBackground">Black (Default)<br>
+                        </fieldset>
+                        <fieldset>
+                        	<h3>Change sidebar colour</h3>
+                            <input type="radio" name="inputSidebar" value="#F00" class="inputSidebar">Red (Default)<br>
+                            <input type="radio" name="inputSidebar" value="#0F0" class="inputSidebar">Green<br>
+                            <input type="radio" name="inputSidebar" value="#00F" class="inputSidebar">Blue<br>
+                            <input type="radio" name="inputSidebar" value="#FF0" class="inputSidebar">Yellow<br>
+                            <input type="radio" name="inputSidebar" value="#F0F" class="inputSidebar">Purple<br>
+                            <input type="radio" name="inputSidebar" value="#0FF" class="inputSidebar">Teal<br>
+                        </fieldset>
+                        <fieldset>
+	                        <h3>Change content colour</h3>
+                            <input type="radio" name="inputContent" value="#F00" class="inputContent">Red<br>
+                            <input type="radio" name="inputContent" value="#0F0" class="inputContent">Green<br>
+                            <input type="radio" name="inputContent" value="#00F" class="inputContent">Blue<br>
+                            <input type="radio" name="inputContent" value="#FF0" class="inputContent">Yellow<br>
+                            <input type="radio" name="inputContent" value="#F0F" class="inputContent">Purple<br>
+                            <input type="radio" name="inputContent" value="#0FF" class="inputContent">Teal<br>
+                            <input type="radio" name="inputContent" value="#FFF" class="inputContent">White<br>
+                            <input type="radio" name="inputContent" value="#EEE" class="inputContent">Grey (Default)<br>
+                        </fieldset>
+                        <fieldset>
+                        	<h3>Change Font</h3>
+                            <input type="radio" name="inputFont" value="arial" class="inputFont">Arial<br>
+                            <input type="radio" name="inputFont" value="verdana" class="inputFont">Verdana<br>
+                            <input type="radio" name="inputFont" value="'Myriad Pro'" class="inputFont">Myriad Pro (Default)<br>
+                        </fieldset>
+                        <input type="button" name="updateCookie" value="Save Changes" class="updateCookie">
+                        <input type="button" name="restoreDefaults" value="Restore Defaults" class="restoreDefaults">
+                        <br>
+                        <br>
+                    </form>
+                </section>
+            </div>
+            <footer>
+                <p>---- Designed and maintained by Corey Sutton &copy; -------- Contact at sutco506@student.otago.ac.nz ----</p>
+            </footer>
+        </div>
+    </div> <!-- Wrapper END -->
+</body>
+
+</html>

@@ -1,0 +1,102 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link href="_styles/style.css" rel="stylesheet" type="text/css">
+    <script src="_scripts/jquery-1.10.2.min.js"></script>
+    <script src="_scripts/threads.js"></script>
+    <script src="_scripts/cookie.js"></script>
+    <script src="_scripts/login.js"></script>
+    <script src="_scripts/formatting.js"></script>
+	<title>Generic Forum</title>
+</head>
+
+<body>
+	<div id="div_wrapper">
+        <nav>
+        	<section id="sect_logo">
+            	<a href="index.html"><img src="_res/genericForum.png" alt="Generic Forum Logo"></a>
+            </section>
+            <section id="sec_navPages" class="navItems">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="users.html">Users</a></li>
+                    <li><a href="customise.html">Customise Page</a></li>
+                </ul>
+            </section>
+            <section id="sec_navThreads" class="navItems">
+            	<h2>Oops!</h2>
+                <p>Could not fetch threads</p>
+                <p>Please enable Javascript!</p>
+            </section>
+            <section id="sec_navLogin" class="navItems">
+            	<div id="login">
+                	<h2>Login</h2>
+                	<form id="loginForm">
+                        <input type="text" name="loginUser" id="loginUser" placeholder="Username"><br>
+                        <input type="password" name="loginPassword" id="loginPassword" placeholder="Password"><br>
+                        <input type="submit" id="loginSubmit" value="Go">
+                    </form>
+          		</div>
+                <div id="logout">
+                    <p>Welcome, <span id="logoutUser"></span></p>
+                    <form id="logoutForm">
+                        <input type="submit" id="logoutSubmit" value="Logout">
+                    </form>
+                </div>
+        	</section>
+        </nav>
+        
+        <div id="div_RHS">
+            <div id="content">
+            	<header>
+                	<div class="header"><h1>Generic Forum</h1></div>
+                </header>
+                <section id="sect_welcomeBlurb">
+                    <h2>Welcome to Generic Forum</h2>
+                    <p>To get started <b>select a thread</b> from the navigation pane to your left.</p>
+                    <p>You can change how your page looks by simply clicking the <b>'Customise Page'</b> link in the navigation pane on the left. There you will also find a link to all the users of Generic Forum</p>
+                    <br>
+                    <p>For the best experience please login or <a href="#">join the community</a></p>
+                    <br>
+                    <br>
+                    <div class="givePattern"><h2>Recent Activity</h2></div>
+                    <h3>Lorem Ipsum</h3>
+                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+                    <ul>
+                       <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+                       <li>Aliquam tincidunt mauris eu risus.</li>
+                       <li>Vestibulum auctor dapibus neque.</li>
+                    </ul>
+                    <br>
+                    <h3>Lorem Ipsum</h3>
+                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
+                    <br>
+                    <br>
+                    <div class="givePattern"><h2>Announcements</h2></div>
+                    <h3>Lorem Ipsum</h3>
+                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+                    <ul>
+                       <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+                       <li>Aliquam tincidunt mauris eu risus.</li>
+                       <li>Vestibulum auctor dapibus neque.</li>
+                    </ul>
+                    <br>
+                    <h3>Lorem Ipsum</h3>
+                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
+                    <br>
+                    <br>
+                </section>
+                <section id="sec_threadContainer">
+                	<!-- Add generated threads here -->
+                </section>
+            </div>
+            <footer>
+                <p>---- Designed and maintained by Corey Sutton &copy; -------- Contact at sutco506@student.otago.ac.nz ----</p>
+            </footer>
+        </div>
+    </div> <!-- Wrapper END -->
+</body>
+
+</html>

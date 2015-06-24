@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!ELEMENT posts (post*)>
+<!ELEMENT post (username, date, time, text, post*)>
+<!ELEMENT date (day, month, year)>
+<!ELEMENT time (hour, minute, seconds)>
+<!ELEMENT username (#PCDATA)>
+<!ELEMENT text (#PCDATA)>
+<!ELEMENT day (#PCDATA)>
+<!ELEMENT month (#PCDATA)>
+<!ELEMENT year (#PCDATA)>
+<!ELEMENT hour (#PCDATA)>
+<!ELEMENT minute (#PCDATA)>
+<!ELEMENT seconds (#PCDATA)>

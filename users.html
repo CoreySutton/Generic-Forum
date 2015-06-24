@@ -1,0 +1,73 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link href="_styles/style.css" rel="stylesheet" type="text/css">
+    <script src="_scripts/jquery-1.10.2.min.js"></script>
+    <script src="_scripts/cookie.js"></script>
+    <script src="_scripts/login.js"></script>
+    <script src="_scripts/users.js"></script>
+    <script src="_scripts/formatting.js"></script>
+	<title>Generic Forum - Users</title>
+</head>
+
+<body>
+	<div id="div_wrapper">
+        <nav>
+        	<section id="sect_logo">
+            	<a href="index.html"><img src="_res/genericForum.png" alt="Generic Forum Logo"></a>
+            </section>
+            <section id="sec_navPages" class="navItems">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="users.html">Users</a></li>
+                    <li><a href="customise.html">Customise Page</a></li>
+                </ul>
+            </section>
+            <section id="sec_navUsers" class="navItems">
+            	<p><strong>Oops!</strong></p>
+                <p>Could not fetch users</p>
+                <p>Please enable Javascript!</p>
+            </section>
+            <section id="sec_navLogin" class="navItems">
+            	<div id="login">
+                	<p><strong>Login</strong></p>
+                	<form id="loginForm">
+                        <input type="text" name="loginUser" id="loginUser" placeholder="Username"><br>
+                        <input type="password" name="loginPassword" id="loginPassword" placeholder="Password"><br>
+                        <input type="submit" id="loginSubmit" value="Go">
+                    </form>
+          		</div>
+                <div id="logout">
+                    <p>Welcome, <span id="logoutUser"></span></p>
+                    <form id="logoutForm">
+                        <input type="submit" id="logoutSubmit" value="Logout">
+                    </form>
+                </div>
+        	</section>
+        </nav>
+        
+        <div id="div_RHS">
+            <div id="content">
+            	<header>
+                	<div class="header"><h1>Users</h1></div>
+                </header>
+                <section id="sect_welcomeBlurb">
+                    <h2>Our valued site patrons.</h2>
+                    <p>Here are all the users along with there profile pictures, names, and signatures.</p>
+                    <p>Click a profile picture to go to their profile <i>(Doesn't actually work. Just opens their profile picture)</i></p>
+                    <p>Use the <b>User</b> navigation pane to the left to jump to a user</p>
+                </section>
+                <section id="sec_userContainer">
+                	<!-- Add generated threads here -->
+                </section>
+            </div>
+            <footer>
+                <p>---- Designed and maintained by Corey Sutton &copy; -------- Contact at sutco506@student.otago.ac.nz ----</p>
+            </footer>
+        </div>
+    </div> <!-- Wrapper END -->
+</body>
+
+</html>
